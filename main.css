@@ -2,11 +2,40 @@
   text-align: left;
   font: normal 14px Roboto;
   margin: 0;
-  padding: 0;
-  -webkit-columns: 3;
-          columns: 3; }
-  .company-list__item-link {
+  padding: 0; }
+  .company-list__wrapper {
+    padding-bottom: 10px; }
+  .company-list__item {
+    margin: 0;
+    padding: 0; }
+    .company-list__item-link {
+      color: #105cb6;
+      text-decoration: none; }
+      .company-list__item-link:hover {
+        text-decoration: underline; }
+  .company-list__green {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 6px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .company-list__green-link {
+      color: green;
+      text-decoration: none; }
+      .company-list__green-link:hover {
+        text-decoration: underline; }
+  .company-list__section {
+    margin: 0;
+    padding: 0; }
+    .company-list__section-link {
+      color: #105cb6;
+      text-decoration: none; }
+      .company-list__section-link:hover {
+        text-decoration: underline; }
+  .company-list__subcat-link {
     color: #105cb6;
-    text-decoration: none; }
-    .company-list__item-link:hover {
+    text-decoration: none;
+    line-height: 16px; }
+    .company-list__subcat-link:hover {
       text-decoration: underline; }

@@ -1,14 +1,53 @@
-.company-list{
+.company-list {
     text-align: left;
     font: normal 14px Roboto;
     margin: 0;
     padding: 0;
-    columns: 3;
-    &__item{
-        &-link{
+    &__wrapper {
+        padding-bottom: 10px;
+    }
+    &__item {
+        margin: 0;
+        padding: 0;
+        &-link {
             color: #105cb6;
             text-decoration: none;
-            &:hover{
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__green {
+        text-align: left;
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 6px;
+        box-sizing: border-box;
+        &-link {
+            color: green;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__section {
+        margin: 0;
+        padding: 0;
+        &-link {
+            color: #105cb6;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &__subcat {
+        &-link {
+            color: #105cb6;
+            text-decoration: none;
+            line-height: 16px;
+            &:hover {
                 text-decoration: underline;
             }
         }
