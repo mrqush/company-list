@@ -1,0 +1,16 @@
+.company-list{
+    text-align: left;
+    font: normal 14px Roboto;
+    margin: 0;
+    padding: 0;
+    columns: 3;
+    &__item{
+        &-link{
+            color: #105cb6;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.company-list {
+  text-align: left;
+  font: normal 14px Roboto;
+  margin: 0;
+  padding: 0;
+  -webkit-columns: 3;
+          columns: 3; }
+  .company-list__item-link {
+    color: #105cb6;
+    text-decoration: none; }
+    .company-list__item-link:hover {
+      text-decoration: underline; }
