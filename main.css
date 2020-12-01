@@ -47,3 +47,7 @@
   .company-list_column {
     -webkit-columns: 1;
             columns: 1; }
+  @media all and (max-width: 465px) {
+    .company-list {
+      -webkit-columns: 1;
+              columns: 1; } }

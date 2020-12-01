@@ -58,4 +58,7 @@
     &_column {
         columns: 1;
     }
+    @media all and (max-width: 465px) {
+        columns: 1;
+    }
 }
